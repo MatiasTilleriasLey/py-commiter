@@ -5,8 +5,8 @@ setup(
     version="0.1.0",
     author="Matias Tillerias",
     description="A CLI tool to create Conventional Commits with emoji and scope selection.",
-   # long_description=open("README.md", encoding="utf-8").read(),
-   # long_description_content_type="text/markdown",
+    long_description=open("README.md", encoding="utf-8").read(),
+    long_description_content_type="text/markdown",
     url="https://github.com/MatiasTilleriasLey/py-commiter",  # Opcional
     packages=find_packages(),
     install_requires=[
