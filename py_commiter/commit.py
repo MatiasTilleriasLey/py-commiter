@@ -3,6 +3,8 @@ from tabulate import tabulate
 import readline
 from prompt_toolkit import prompt
 from prompt_toolkit.key_binding import KeyBindings
+import subprocess
+import tempfile
 
 configFile = Path(".py-commit.conf")
 def multiline_input(message):
